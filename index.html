@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Laundry Wallah</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("8aZb1Id0uOMXaz5bJ"); // Replace with your EmailJS Public Key
+        })();
+    </script>
+
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo"><img src="logo.jpg" alt="Hello" height="60px" ></div>
+        <div class="list">
+            <div class="item">Home</div>
+            <div class="item">Services</div>
+            <div class="item">About Us</div>
+            <div class="item">Contact Us</div>
+        </div>
+        <div class="username">
+            Username
+        </div>
+    </header>
+    <main class="hero" id="hero">
+        <div class="left">
+            <p class="mainhead">Revitalize Your<br> Clothes with Expert</p>
+            <p class="subhead">Laundry Services!</p>
+            <p class="content">From Premium dry cleaning to swift wash and fold, we deliver care and convenience. Schedule a pickup and rediscover the freshness of your clothes today!</p>
+            <div class="book">Book a Service Today!</div>
+        </div>
+        <div class="right">
+        </div>
+    </main>
+    <div class="serviceover" id="serviceover">
+        <div class="lefts">
+            <div class="text-achieve"><b>Our Achievements</b></div>
+        </div>
+        <div class="rights">
+            <div class="service"><span class="bigfont"><b>15+</b></span><br>Laundry Service</div>
+            <div class="service"><span class="bigfont"><b>240+</b></span><br>Happy Customers</div>
+            <div class="service"><span class="bigfont"><b>2+ Yrs</b></span><br>Experience</div>
+        </div>
+    </div>
+    <div class="booking">
+        <div class="left common">
+            <span class="ourservice"><b>Our Service</b></span>
+            <p>Click On The Add to Cart Button<br><br></p>
+            <hr>
+            <div class="servicesContainer" id="servicesContainer">
+            </div>
+        </div>
+        <div class="right">
+            <div class="up common">
+                <div class="addeditems">
+                <b>Added Items</b>
+            </div>
+                <div class="addedtable">
+                    <table class="table">
+                        <thead class="th">
+                        <tr>
+                            <th width="10%">S.No</th>
+                            <th>Service Name</th>
+                            <th>Price</th>
+                        </tr>
+                        </thead>
+                        <tbody id="tableBody">
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="total">
+                    <div class="totalamount">
+                        Total Amount:
+                    </div>
+                    <div class="Amount" id="totalCell">
+                        ₹0.00
+                    </div>
+                </div>
+            </div>
+            <div class="down common">
+                <div class="headerinform" style="font-size: 25px">Book Now</div>
+                <div>
+                    <label class="headerinform">
+                        Full Name<br>
+                        <input class="buttoninform" type="text" placeholder="Enter Your Full Name">
+                    </label>
+                </div>
+                <div style="display: flex; gap:5px;">
+                    <div style="flex:1;" class="headerinform">Email ID<br><label>
+                        <input class="buttoninform" type="text" placeholder="Enter Your Email ID">
+                    </label></div>
+                    <div style="flex:1;" class="headerinform">Phone Number<br><label>
+                        <input class="buttoninform" type="text" placeholder="Enter Your Phone Number">
+                    </label></div>
+                </div>
+                <div class="book" id="bookNowBtn" style="width: 100%;text-align: center;margin-top: 5px" >Book Now</div>
+            </div>
+        </div>
+    </div>
+    <div class="quality" id="quality"></div>
+    <div class="subscribe">
+        <div class="left">
+            Subsribe to our newsletter
+        </div>
+        <div class="right">
+            <div class="div1"><label>
+                <input class = "input" type="text" placeholder="Full Name">
+            </label></div>
+            <div class="div2">
+                <label>
+                    <input class = "input" type="text" placeholder="Email">
+                </label></div>
+            <div class="div3 subscribebutton"><b>Subscribe</b></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="div1">
+            <div class="logo"><img src="logo.jpg" alt="Hello" height="80px" ></div>
+            <p class="aboutus heads">About Us</p>
+            <p class="desc">Lorem ipsum dolor sit amet,<br>consectetur. Sed At Congue.</p>
+        </div>
+        <div class="div2">
+            <p class="implinks heads">Important Links</p>
+            <p class="desc">
+                About Us<br>Contact Us<br>Privacy Policy<br>Terms of Use<br>Refund Policy
+            </p>
+        </div>
+        <div class="div3">
+            <p class="contact heads">Contact</p>
+            <p class="desc">mail@site.com<br>+91 91234 56780</p>
+        </div>
+        <div class="div4">
+            <p class="followus heads">&nbsp&nbspFollow Us</p>
+            <img src="img/insta.png" alt="" height="40px" ></div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
